@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* border: 2px,solid black; */
+    
+}
+.navbar{
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+
+}
+.nav-links{
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 20px;
+    list-style: none;
+    margin-left: 100px;
+}
+.nav-links li a{
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    margin-left: 100px;
+    text-decoration: none;
+    list-style-type: none;
+}
